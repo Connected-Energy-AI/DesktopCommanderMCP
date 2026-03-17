@@ -1,0 +1,112 @@
+{
+  "name": "desktop-commander-plugins",
+  "version": "1.0.0",
+  "owner": {
+    "name": "wonderwhy-er",
+    "url": "https://github.com/wonderwhy-er"
+  },
+  "description": "Desktop Commander MCP plugins - terminal control, file operations, and AI-powered development workflows",
+  "homepage": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+  "repository": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+  "license": "MIT",
+  "plugins": [
+    {
+      "name": "desktop-commander-core",
+      "version": "1.0.0",
+      "description": "Core Desktop Commander MCP integration with terminal control, file system operations, and process management",
+      "author": {
+        "name": "wonderwhy-er"
+      },
+      "keywords": [
+        "mcp",
+        "terminal",
+        "file-system",
+        "code-editing",
+        "process-management"
+      ],
+      "homepage": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "repository": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "license": "MIT",
+      "source": ".claude-plugin/plugins/desktop-commander-core"
+    },
+    {
+      "name": "desktop-commander-docker",
+      "version": "1.0.0",
+      "description": "Desktop Commander MCP running in Docker isolation - perfect for sandboxed environments",
+      "author": {
+        "name": "wonderwhy-er"
+      },
+      "keywords": [
+        "mcp",
+        "docker",
+        "sandbox",
+        "isolation",
+        "security"
+      ],
+      "homepage": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "repository": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "license": "MIT",
+      "source": ".claude-plugin/plugins/desktop-commander-docker"
+    },
+    {
+      "name": "desktop-commander-commands",
+      "version": "1.0.0",
+      "description": "Custom Claude Code commands for common Desktop Commander workflows - commit, search, analyze, and more",
+      "author": {
+        "name": "wonderwhy-er"
+      },
+      "keywords": [
+        "commands",
+        "git",
+        "search",
+        "analysis",
+        "productivity"
+      ],
+      "homepage": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "repository": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "license": "MIT",
+      "source": ".claude-plugin/plugins/desktop-commander-commands"
+    },
+    {
+      "name": "desktop-commander-agents",
+      "version": "1.0.0",
+      "description": "Specialized AI agents powered by Desktop Commander for automated development tasks",
+      "author": {
+        "name": "wonderwhy-er"
+      },
+      "keywords": [
+        "agents",
+        "automation",
+        "testing",
+        "refactoring",
+        "documentation"
+      ],
+      "homepage": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "repository": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "license": "MIT",
+      "source": ".claude-plugin/plugins/desktop-commander-agents"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Developer Tools",
+      "description": "Tools for software development and coding",
+      "plugins": ["desktop-commander-core", "desktop-commander-docker", "desktop-commander-commands", "desktop-commander-agents"]
+    },
+    {
+      "name": "MCP Servers",
+      "description": "Model Context Protocol server integrations",
+      "plugins": ["desktop-commander-core", "desktop-commander-docker"]
+    },
+    {
+      "name": "System Utilities",
+      "description": "System-level tools and utilities",
+      "plugins": ["desktop-commander-core", "desktop-commander-docker"]
+    },
+    {
+      "name": "Automation",
+      "description": "Workflow automation and productivity tools",
+      "plugins": ["desktop-commander-commands", "desktop-commander-agents"]
+    }
+  ]
+}

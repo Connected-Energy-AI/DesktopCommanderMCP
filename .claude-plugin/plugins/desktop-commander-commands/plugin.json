@@ -1,0 +1,46 @@
+{
+  "name": "desktop-commander-commands",
+  "version": "1.0.0",
+  "description": "Custom Claude Code commands for common Desktop Commander workflows",
+  "author": {
+    "name": "wonderwhy-er",
+    "url": "https://github.com/wonderwhy-er"
+  },
+  "homepage": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+  "repository": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+  "license": "MIT",
+  "keywords": [
+    "commands",
+    "git",
+    "search",
+    "analysis",
+    "productivity"
+  ],
+  "commands": [
+    {
+      "name": "dc:analyze",
+      "description": "Analyze a file with Desktop Commander - read content, get metadata, provide insights",
+      "prompt": "Use Desktop Commander MCP to analyze the file: {{file}}\n\n1. Get file info using get_file_info\n2. Read the file content using read_file (use offset/length for large files)\n3. For Excel files, examine sheet structure\n4. For PDFs, extract and summarize content\n5. Provide a comprehensive summary including:\n   - File type and purpose\n   - Key structure and organization\n   - Notable patterns or issues\n   - Recommendations if applicable"
+    },
+    {
+      "name": "dc:search",
+      "description": "Search codebase using Desktop Commander's ripgrep-powered search",
+      "prompt": "Use Desktop Commander MCP to search for: {{pattern}}\n\n1. Use start_search to find matches in file content\n2. Use start_search with type:\"file\" to find matching filenames\n3. Use get_more_search_results to paginate if needed\n4. Summarize findings with:\n   - Total matches found\n   - File locations with context\n   - Key insights about what was found"
+    },
+    {
+      "name": "dc:excel",
+      "description": "Analyze Excel or CSV data files",
+      "prompt": "Use Desktop Commander MCP to analyze the spreadsheet: {{file}}\n\n1. Get file info to see sheet structure\n2. Read each sheet using read_file\n3. Parse the data (it returns as 2D arrays)\n4. Identify:\n   - Column headers and data types\n   - Key metrics and statistics\n   - Trends and patterns\n   - Data quality issues\n5. Present findings with summary tables"
+    },
+    {
+      "name": "dc:run",
+      "description": "Run terminal commands and capture output",
+      "prompt": "Use Desktop Commander MCP to execute: {{command}}\n\n1. Use start_process for interactive commands\n2. Or use the appropriate terminal tool for the task\n3. Capture and analyze the output\n4. Report results, errors, and next steps"
+    },
+    {
+      "name": "dc:explore",
+      "description": "Explore and map an unfamiliar directory structure",
+      "prompt": "Use Desktop Commander MCP to explore: {{directory}}\n\n1. Use list_directory with appropriate depth\n2. Identify key files (config, entry points, package files)\n3. Map the architecture\n4. Create a summary of:\n   - Directory structure\n   - Key files and their purposes\n   - Technology stack indicators\n   - Project organization patterns"
+    }
+  ]
+}

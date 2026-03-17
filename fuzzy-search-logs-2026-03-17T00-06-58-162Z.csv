@@ -1,0 +1,3 @@
+timestamp,searchText,foundText,similarity,executionTime,exactMatchCount,expectedReplacements,fuzzyThreshold,belowThreshold,diff,searchLength,foundLength,fileExtension,characterCodes,uniqueCharacterCount,diffLength
+timestamp,searchText,foundText,NaN,NaN,NaN,NaN,NaN,false,diff,NaN,NaN,fileExtension,characterCodes,NaN,NaN
+2026-03-17T00:03:50.391Z,non-existent,,0,0.19537500000001273,0,1,0.7,true,{-non-existent-}{++},12,0,.txt,"45:1[-],101:2[e],105:1[i],110:3[n],111:1[o],115:1[s],116:2[t],120:1[x]",8,12

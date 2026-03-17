@@ -1,0 +1,25 @@
+{
+  "extraKnownMarketplaces": {
+    "desktop-commander-plugins": {
+      "source": {
+        "source": "local",
+        "path": "./.claude-plugin/marketplace.json"
+      },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": [],
+  "mcpServers": {
+    "desktop-commander": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@wonderwhy-er/desktop-commander@latest"
+      ],
+      "env": {
+        "ALLOWED_DIRECTORIES": "/Users/robertbailey/DesktopCommanderMCP",
+        "DEFAULT_SHELL": "zsh"
+      }
+    }
+  }
+}

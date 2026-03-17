@@ -1,0 +1,30 @@
+{
+  "name": "desktop-commander-docker",
+  "version": "1.0.0",
+  "description": "Desktop Commander MCP running in Docker isolation - perfect for sandboxed environments",
+  "author": {
+    "name": "wonderwhy-er",
+    "url": "https://github.com/wonderwhy-er"
+  },
+  "homepage": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+  "repository": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "docker",
+    "sandbox",
+    "isolation",
+    "security"
+  ],
+  "mcpServers": {
+    "desktop-commander-in-docker": {
+      "command": "docker",
+      "args": [
+        "run", "-i", "--rm",
+        "-v", "dc-home:/root",
+        "-v", "dc-workspace:/workspace",
+        "mcp/desktop-commander:latest"
+      ]
+    }
+  }
+}
