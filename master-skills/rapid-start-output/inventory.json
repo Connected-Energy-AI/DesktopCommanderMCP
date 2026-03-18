@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-03-17T23:08:58.280774",
+  "accounts": {
+    "banking": [
+      {
+        "name": "Chase Business Complete",
+        "type": "checking",
+        "balance": "15000",
+        "status": "active"
+      },
+      {
+        "name": "Connected Energy Operating",
+        "type": "checking",
+        "balance": "25000",
+        "status": "active"
+      }
+    ],
+    "credit_cards": [
+      {
+        "name": "Amex Business Card",
+        "type": "credit",
+        "balance": "-5000",
+        "status": "active"
+      }
+    ],
+    "loans": [],
+    "saas_subscriptions": [],
+    "utilities": [
+      {
+        "name": "PG&E",
+        "type": "utility",
+        "balance": "-300/month",
+        "status": "active"
+      }
+    ],
+    "investment": [],
+    "retirement": []
+  },
+  "tools": {
+    "software": [
+      {
+        "name": "QuickBooks Online",
+        "type": "saas",
+        "balance": "-150/month",
+        "status": "active"
+      },
+      {
+        "name": "Airtable",
+        "type": "saas",
+        "balance": "-20/month",
+        "status": "active"
+      },
+      {
+        "name": "AWS",
+        "type": "saas",
+        "balance": "-500/month",
+        "status": "active"
+      }
+    ],
+    "hardware": [],
+    "services": []
+  },
+  "debts": {
+    "business": [],
+    "personal": []
+  },
+  "disputes": {
+    "active": [],
+    "potential": []
+  },
+  "customers": {
+    "outstanding_invoices": [],
+    "follow_up_required": []
+  }
+}

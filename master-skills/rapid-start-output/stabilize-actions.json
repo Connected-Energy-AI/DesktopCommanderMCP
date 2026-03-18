@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-03-17T23:09:13.537113",
+  "freeze_non_essential": [
+    {
+      "account": "QuickBooks",
+      "action": "freeze",
+      "completed": false,
+      "timestamp": "2026-03-17T23:09:13.537192"
+    }
+  ],
+  "enable_mfa": [
+    {
+      "account": "Amex",
+      "action": "mfa",
+      "completed": false,
+      "timestamp": "2026-03-17T23:09:13.537182"
+    },
+    {
+      "account": "Chase Business",
+      "action": "mfa",
+      "completed": false,
+      "timestamp": "2026-03-17T23:09:13.537187"
+    },
+    {
+      "account": "AWS",
+      "action": "mfa",
+      "completed": false,
+      "timestamp": "2026-03-17T23:09:13.537190"
+    }
+  ],
+  "set_follow_ups": [],
+  "password_changes": [
+    {
+      "account": "Airtable",
+      "action": "password",
+      "completed": false,
+      "timestamp": "2026-03-17T23:09:13.537191"
+    }
+  ],
+  "account_locks": []
+}

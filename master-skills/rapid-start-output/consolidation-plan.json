@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-03-17T23:09:49.262742",
+  "accounts_to_close": [
+    {
+      "account": "Chase Personal",
+      "action": "close",
+      "destination": "",
+      "scheduled_date": "",
+      "completed": false
+    },
+    {
+      "account": "Amex Personal",
+      "action": "close",
+      "destination": "",
+      "scheduled_date": "",
+      "completed": false
+    }
+  ],
+  "accounts_to_merge": [
+    {
+      "account": "QuickBooks Online",
+      "action": "merge",
+      "destination": "QuickBooks Desktop (QBWC)",
+      "scheduled_date": "",
+      "completed": false
+    }
+  ],
+  "accounts_to_keep": [
+    {
+      "account": "Airtable",
+      "action": "keep",
+      "destination": "",
+      "scheduled_date": "",
+      "completed": false
+    },
+    {
+      "account": "AWS",
+      "action": "keep",
+      "destination": "",
+      "scheduled_date": "",
+      "completed": false
+    },
+    {
+      "account": "Connected Energy Operating",
+      "action": "keep",
+      "destination": "",
+      "scheduled_date": "",
+      "completed": false
+    }
+  ],
+  "migration_schedule": []
+}

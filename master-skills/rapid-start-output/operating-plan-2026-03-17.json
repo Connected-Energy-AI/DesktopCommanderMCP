@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-03-17T23:09:57.595279",
+  "date": "2026-03-17",
+  "top_3_priorities": [
+    {
+      "priority": 1,
+      "task": "Deploy QuickBooks connector to AWS",
+      "completed": false
+    },
+    {
+      "priority": 2,
+      "task": "Complete Airtable base setup for Talian projects",
+      "completed": false
+    },
+    {
+      "priority": 3,
+      "task": "Send dispute letters for Amex and AWS charges",
+      "completed": false
+    }
+  ],
+  "messages_to_send": [
+    {
+      "to": "Brandon Davis - Tejas partnership follow-up",
+      "subject": "",
+      "sent": false
+    },
+    {
+      "to": "Customer A invoice collection",
+      "subject": "",
+      "sent": false
+    },
+    {
+      "to": "Customer B invoice collection",
+      "subject": "",
+      "sent": false
+    },
+    {
+      "to": "Weekly priority planning review",
+      "subject": "",
+      "sent": false
+    }
+  ],
+  "follow_ups": [],
+  "blocked_by": []
+}

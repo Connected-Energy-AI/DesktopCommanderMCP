@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-03-17T23:09:21.006454",
+  "disputes_to_open": [
+    {
+      "description": "Amex unauthorized charge",
+      "type": "dispute",
+      "amount": "500",
+      "notes": "Merchant dispute",
+      "status": "pending"
+    }
+  ],
+  "transactions_to_reconcile": [
+    {
+      "description": "AWS overcharge",
+      "type": "reconcile",
+      "amount": "200",
+      "notes": "Need credit",
+      "status": "pending"
+    }
+  ],
+  "customer_updates": [
+    {
+      "description": "Customer A - invoice overdue",
+      "type": "customer",
+      "amount": "1500",
+      "notes": "Follow up needed",
+      "status": "pending"
+    },
+    {
+      "description": "Customer B - invoice overdue",
+      "type": "customer",
+      "amount": "2500",
+      "notes": "Follow up needed",
+      "status": "pending"
+    }
+  ],
+  "chargebacks": []
+}

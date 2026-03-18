@@ -1,0 +1,5 @@
+spyne==2.14.0
+flask==3.0.0
+lxml==4.9.3
+waitress==2.1.2
+python-dotenv==1.0.0

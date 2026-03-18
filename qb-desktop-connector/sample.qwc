@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  QuickBooks Web Connector Registration File
+  For Talian Technologies - Oil & Gas Operations
+  
+  Instructions:
+  1. Update the <URL> to your deployed AWS endpoint
+  2. Generate a unique GUID for <AppGUID>
+  3. Double-click this file on Windows with QBWC installed
+-->
+<QBWCXML>
+  <AppID>TLN001</AppID>
+  <AppURL>https://taliantech.com</AppURL>
+  <AppGUID>{YOUR-UNIQUE-GUID-HERE}</AppGUID>
+  <AppMajorVersion>1</AppMajorVersion>
+  <AppMinorVersion>0</AppMinorVersion>
+  <AppDisplayName>Talian Technologies Connector</AppDisplayName>
+  <AppDescription>QuickBooks integration for Talian Technologies oil & gas operations</AppDescription>
+  <AppSecureURL>https://your-aws-domain.com/qbwc</AppSecureURL>
+  <URL>https://your-aws-domain.com/qbwc</URL>
+  <UseAuthentication>yes</UseAuthentication>
+  <SupportsWebMenu>yes</SupportsWebMenu>
+  <SupportsScheduler>yes</SupportsScheduler>
+  <Scheduler>
+    <FirstRun>now</FirstRun>
+    <RunEveryNMinutes>60</RunEveryNMinutes>
+  </Scheduler>
+  <Timeout>300000</Timeout>
+  <Style>Regular</Style>
+</QBWCXML>
